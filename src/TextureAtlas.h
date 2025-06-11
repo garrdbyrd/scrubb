@@ -17,5 +17,5 @@ public:
 private:
     QVector<QPixmap> pixmaps;
     QVector<QString> names;
-    QMap<QString, int> nameToId; // For quick lookup
+    QMap<QString, int> nameToId;
 };
