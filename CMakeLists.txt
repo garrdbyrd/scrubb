@@ -8,7 +8,7 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
 add_executable(scrubb
     src/main.cpp
-    src/TextureAtlas.cpp
+    src/TileArray.cpp
 )
 
 target_link_libraries(scrubb PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)
